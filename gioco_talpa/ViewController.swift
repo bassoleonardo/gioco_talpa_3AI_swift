@@ -40,6 +40,10 @@ class ViewController: UIViewController {
         img2.layer.shadowColor = UIColor.black.cgColor
         img2.layer.shadowRadius = 10
         img2.layer.shadowOpacity = 0.3
+        img3.layer.cornerRadius = 2
+        img3.layer.shadowColor = UIColor.black.cgColor
+        img3.layer.shadowRadius = 10
+        img3.layer.shadowOpacity = 0.3
         btn_termina.isEnabled = false
         btn_termina.isHidden = true
         btn_termina.layer.cornerRadius = 3
