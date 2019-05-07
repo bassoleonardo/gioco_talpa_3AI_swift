@@ -7,7 +7,7 @@
 //
 
 import UIKit
-var dim_vita: Bool = false
+var dim_vita: Bool = false // variabile che potrebbe se
 var tocco_mancato: Bool = true // potrebbe essere utilizzato per il mancato tocco
 var vite: Int = 5 // contatore delle vite
 var punteggio: Int = 0 // punteggio che l'utente andrà a conseguire durante il gioco
