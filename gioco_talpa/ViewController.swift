@@ -19,7 +19,7 @@ var appoggio_record: Int = 0
 var velocità: Double = 3.0
 let img = UIImageView(image: #imageLiteral(resourceName: "image"))
 let img2 = UIImageView(image: #imageLiteral(resourceName: "Image-2"))
-let img3 = UIImageView(image: #imageLiteral(resourceName: "Image-3"))
+let img3 = UIImageView(image: #imageLiteral(resourceName: "Image-3")) // scontornare meglio i bordi di quest'immagine
 let img_switch_vita = UIImageView(image: #imageLiteral(resourceName: "Image-1"))
 class ViewController: UIViewController {
     @IBOutlet weak var view_spazio: UIView!
