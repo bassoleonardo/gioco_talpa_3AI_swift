@@ -64,11 +64,13 @@ class ViewController: UIViewController {
         img3.frame = CGRect(x: Double(larghezza_random3), y: Double(altezza_random3), width: 80, height: 80)
         self.view_spazio.addSubview(img) // aggiunta dell'immagine del "p greco"
         self.view_spazio.addSubview(img2) // aggiunta dell'immagine del segno " - "
+        self.view_spazio.addSubview(img3) // aggiunta della terza immagine " boh "
         let metàLarghezza = CGFloat(img.frame.width/2) // variabile utile al posizionamento all'interno della view_spazio
         let metàAltezza = CGFloat(img.frame.height/2) // variabile utile al posizionamento all'interno della view_spazio
         UIView.animate(withDuration: TimeInterval(velocità), animations: {
             img.center = CGPoint(x: (img.frame.maxX - metàLarghezza) + 0.1, y: (img.frame.maxY - metàAltezza) + 0.1)
             img2.center = CGPoint(x: (img2.frame.maxX - metàLarghezza) + 0.1, y: (img2.frame.maxY - metàAltezza) + 0.1)
+            img3.center = CGPoint(x: (img3.frame.maxX - metàLarghezza) + 0.1, y: (img3.frame.maxY - metàAltezza) + 0.1)
         }) { (Bool) in
             if vite > 0
             {
