@@ -172,7 +172,7 @@ class ViewController: UIViewController {
         UIView.transition(with: btn_termina, duration: 0.3, options: .transitionCrossDissolve, animations: nil, completion: nil)
         btn_termina.isEnabled = true
     }
-    // funzione che permette di passare al viewcontroller dei punteggi
+    // funzione che permette di passare dal viewcontroller dei punteggi al viewController iniziale
     @IBAction func unwind(segue: UIStoryboardSegue){
         btn_termina.isHidden = true
         btn_termina.isEnabled = false
